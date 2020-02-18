@@ -1,0 +1,77 @@
+@import './resets';
+@import './variables';
+
+body{
+  background-color:#C8E1F4 ;
+}
+.fb-profile img.fb-image-lg{
+    z-index: 0;
+    width: 100%;  
+    height: 40vh;
+    margin-bottom: 10px;
+}
+
+.fb-image-profile
+{
+    margin-top:-92px;
+    margin-bottom: 10px;
+    z-index: 9;
+    width: 150px; 
+    height: 150px;
+    border-radius: 50% ;
+    border: 5px solid #C9CED1 ;
+}
+.pf-name h1
+{
+  font-size: 30px;
+  font-weight: bold;
+}
+.pf-name h1 span
+{
+  font-size: 20px;
+  color:green;
+}
+.pf-name h2
+{
+  font-size: 16px;
+}
+ul{
+  background-color:#E7EAEC ;
+  padding:10px 30px;
+  border-radius: 10px;
+ 
+}
+li{
+  margin-bottom:5px;
+  padding:5px;
+  list-style: none;
+  border-bottom:2px solid #BFBDBC;
+  
+}
+.pf-content h2
+{
+  font-size: 16px;
+  font-weight: bolder;
+}
+.pf-content h2 span{
+  font-size: 14px;
+  font-weight: 600;
+}
+.pf-address h3
+{ 
+  font-size: 16px;
+}
+.pf-contact h3{
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.base-line
+{
+  width: 100%;
+  height: 2px;
+  background:#B7BABC;
+  margin:10px 0;
+}
+
+
+
